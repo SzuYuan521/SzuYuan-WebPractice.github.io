@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Szu Yuan Chen" />
+    <title>故宮問卷調查</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- 輸入姓名的input框 -->
+      <label for="名字">姓名:</label>
+      <input type="text" name="姓名" id="名字" />
+      <br />
+
+      <!-- 輸入電子信箱的email input框 -->
+      <label for="信箱">信箱</label>
+      <input type="email" name="email" id="信箱" required />
+      <br />
+
+      <!-- 輸入密碼的password input框,限制長度8~20字元 -->
+      <label for="password">密碼:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        minlength="8"
+        maxlength="20"
+        placeholder="限定8~20字元"
+      />
+
+      <!-- 是否顯示密碼的checkbox -->
+      <input type="checkbox" onclick="showPassword" id="showPassword" />
+      <br />
+
+      <!-- 性別選擇的select選單 -->
+      <label for="gender">性別:</label>
+      <select name="gender" id="gender" required>
+        <option></option>
+        <option value="male">男性</option>
+        <option value="female">女性</option>
+        <option value="other">其他</option>
+      </select>
+      <br />
+
+      <!-- 性別選擇的radio -->
+      <!-- <label for="">性別:</label>
+      <input type="radio" name="gender" id="male" required />
+      <label for="male">男性</label>
+      <input type="radio" name="gender" id="female" required />
+      <label for="female">女性</label>
+      <input type="radio" name="gender" id="other" required />
+      <label for="other">其他</label> -->
+
+      <label for="年齡">年齡:</label>
+      <!-- 年齡輸入的number -->
+      <input type="number" name="age" id="年齡" min="0" max="150" step="0.01" />
+      <!-- 年齡輸入的range拉條 -->
+      <!-- 0<input type="range" min="0" max="100" step="10" />100 -->
+      <br />
+
+      <!-- 縣市地區選擇的datalist(只有部分縣市) -->
+      <label for="area">地區</label>
+      <input list="area-list" type="text" name="area" id="area" />
+      <datalist id="area-list">
+        <option value="台北市">台北市</option>
+        <option value="新北市">新北市</option>
+        <option value="桃園市">桃園市</option>
+        <option value="台中市">台中市</option>
+        <option value="台南市">台南市</option>
+        <option value="高雄市">高雄市</option>
+      </datalist>
+      <br />
+
+      <!-- 訂閱電子報的checkbox,預設訂閱 -->
+      <input type="checkbox" name="電子報" id="電子報" value="訂閱" checked />
+      <label for="電子報">訂閱電子報</label>
+      <br />
+
+      <!-- 網站建議textarea輸入框 -->
+      <textarea
+        name="suggestion"
+        id="suggestion"
+        cols="20"
+        rows="10"
+        placeholder="填寫給網站的建議!"
+      ></textarea>
+      <hr />
+
+      <!-- 提交表單按鈕 -->
+      <button type="submit">提交表單</button>
+    </form>
+
+    <!-- 對應上面的密碼輸入框的id, 用於顯示和隱藏密碼(利用input type的轉變) -->
+    <script>
+      let checkbox = document.querySelector("#showPassword");
+      let password = document.querySelector("#password");
+      checkbox.addEventListener("click", () => {
+        if (password.type == "password") password.type = "text";
+        else password.type = "password";
+      });
+    </script>
+  </body>
+</html>
