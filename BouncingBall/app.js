@@ -75,7 +75,6 @@ function drawCircle() {
     if (point.visible && point.touchingBall(circleX, circleY)) {
       point.visible = false;
       score++;
-      console.log(score);
     }
   });
 
