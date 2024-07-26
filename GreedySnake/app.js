@@ -210,9 +210,11 @@ document.addEventListener("DOMContentLoaded", function () {
   function setHighestScore() {
     // 如果分數比原本最高分數大,則儲存新的最高分
     if (score > highestScore) {
-      localStorage.setItem("highestScore", score);
+      highestScore = score;
+      localStorage.setItem("highestScore", highestScore);
     }
     // 更新顯示最高分
-    document.getElementById("highestScore").innerHTML = "最高分數: " + score;
+    document.getElementById("highestScore").innerHTML =
+      "最高分數: " + highestScore;
   }
 });

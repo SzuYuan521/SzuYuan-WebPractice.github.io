@@ -8,3 +8,15 @@
   background-color: black;
   border: 5px solid lightblue;
 }
+
+#author {
+  color: white;
+  font-size: 20px;
+  text-shadow: -1px -1px 0 rgb(236, 42, 107), 1px -1px 0 rgb(236, 42, 107),
+    -1px 1px 0 rgb(236, 42, 107), 1px 1px 0 rgb(236, 42, 107);
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
