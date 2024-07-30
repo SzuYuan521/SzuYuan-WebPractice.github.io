@@ -2,6 +2,12 @@
 
 Web practice file by Szu-Yuan Chen
 
+# Branch
+
+## dev: 開發分支
+
+## main: 主要分支
+
 # GreedySnake
 
 **貪食蛇遊戲**
