@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <div class="title-container" id="slideTitle">默认标题</div>
+    <div class="reveal">
+      <div class="slides">
+        <section data-title="投影片標題 1">
+          <p>這是投影片 1 的內文。</p>
+          <pre><code data-trim class="language-html">
+          <p>這是投影片 1 的內文。</p>
+          </code></pre>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // 設置標題
+      const titleContainer = document.getElementById("slideTitle");
+
+      const updateTitle = () => {
+        const currentSlide = Reveal.getCurrentSlide();
+        const title = currentSlide.getAttribute("data-title") || "未命名";
+        titleContainer.textContent = title;
+      };
+
+      Reveal.on("slidechanged", updateTitle);
+      Reveal.on("ready", updateTitle);
+
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+/* 固定投影片標題位置 */
+/* 距離頂部50px, 水平置中, 確保標題位於內容上方不會被重疊, 設置container是viewport寬度的80%  */
+/* 標題文字顏色為白色, 大小固定40px */
+.title-container {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  color: white;
+  font-size: 40px;
+}
+
+/* 給內容留出頂部空間以防內容重疊標題 */
+.reveal .slides section {
+  padding-top: 80px;
+}
+
+/* 固定內文文字大小 */
+.reveal .slides section p {
+  font-size: 24px;
+}
