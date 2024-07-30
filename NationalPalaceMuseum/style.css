@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/* 引用開源字體:Google fonts：Noto Sans TC (Chinese Traditional) */
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  background-color: transparent;
+  background-image: url(./National\ Palace\ Museum.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* 段落內縮 */
+p {
+  text-indent: 2rem;
+}
+
+/* grouping selector */
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+h1 {
+  color: red; /* color keywords */
+  text-align: center; /* 置中 */
+  font-weight: bolder; /* 粗體字 */
+}
+
+/* rgb */
+h2 {
+  color: rgb(69, 112, 228);
+}
+
+/* hex十六進制 */
+h3 {
+  color: #000000;
+}
+
+/* HSL(色相,飽和度,亮度) */
+h4 {
+  color: hsl(240, 80%, 50%);
+}
+
+/* ID Selector */
+#first-paragraph {
+  color: black;
+}
+
+/* Class Selector */
+.blue-text {
+  color: blue;
+}
+
+/* element selector和id selector並用 */
+a.large-text {
+  font-size: 30px;
+}
+
+/* Descendant Selector */
+div.link1 a {
+  color: red;
+  text-decoration: none;
+}
+
+div.link2 a {
+  color: green;
+  text-decoration: none;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+  color: red;
+}
+
+/* pseudo-class */
+input[type="text"]:hover {
+  color: orange;
+}
+
+input[type="text"]:active {
+  color: blue;
+}
+
+input[type="number"]:focus {
+  color: purple;
+}
+
+/* pseudo-element 偽元素 */
+/* p::before {
+  content: ">>";
+  color: blue;
+} */
+
+/* 圈選時背景變為亮藍色 */
+*::selection {
+  background-color: aqua;
+}
+
+/* 畫一個半徑為50px的紅色正圓形 */
+.box-circle {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  right: 0;
+}
