@@ -11,7 +11,7 @@ body {
 /* 標題文字顏色為白色, 大小固定40px */
 .title-container {
   position: fixed;
-  top: 50px;
+  top: 80px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
@@ -23,22 +23,50 @@ body {
   margin-bottom: 20px;
 }
 
+.front-title-container {
+  position: fixed;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  color: #e1a383;
+  font-size: 5vw;
+  margin-bottom: 20px;
+}
+
 /* 給內容留出頂部空間以防內容重疊標題 */
 .reveal .slides section {
   padding: 20px;
   box-sizing: border-box; /* 確保padding包含在元素總寬度內 */
-  font-size: 1.5vw;
 }
 
 /* 固定內文文字大小 */
 .reveal .slides section p {
-  font-size: 1.5vw;
+  padding: 20px;
+  font-size: 1.2vw;
+  color: #858585;
+}
+
+/* 副標題 */
+.reveal .slides section p.subtitle {
+  padding: 20px;
+  font-size: 1.8vw;
   color: #e1a383;
 }
 
 .gradient-text {
   font-weight: 550; /* 設置粗體但不那麼粗 */
-  background: linear-gradient(to right, #c55b3a, #e1a383, #d3ae9b); /* 漸層 */
+  background: linear-gradient(
+    to right,
+    #d1542e,
+    #c55b3a,
+    #e1a383,
+    #d3ae9b,
+    #dfc6ba
+  ); /* 漸層 */
   -webkit-background-clip: text; /* 使背景漸變用於文字, 基於WebKit的瀏覽器 */
   -webkit-text-fill-color: transparent; /* 文字填充設為透明, 使背景漸變可見 */
   text-align: center; /* 文字置中對齊 */
@@ -48,4 +76,22 @@ body {
 .highlight-text {
   color: #c55b3a;
   font-weight: bold;
+}
+
+.grid-container {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.grid-container img {
+  position: absolute;
+  object-fit: contain;
+  z-index: 1; /* 確保圖片在文字下面 */
+}
+
+.grid-container .text {
+  position: relative;
+  color: white;
+  z-index: 2; /* 確保文字在圖片上方 */
 }

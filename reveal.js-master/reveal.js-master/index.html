@@ -23,9 +23,22 @@
     />
   </head>
   <body>
-    <div class="title-container gradient-text" id="slideTitle">默認標題</div>
     <div class="reveal">
       <div class="slides">
+        <div class="title-container gradient-text" id="slideTitle">
+          預設標題
+        </div>
+        <div class="front-title-container gradient-text" id="slideFrontTitle">
+          預設標題
+        </div>
+        <section front-title="投影片封面標題">
+          <p class="subtitle">投影片副標題</p>
+          <p>投影片說明</p>
+          <div class="grid-container" style="padding: 20px">
+            <img src="img/oblong-1.png" alt="Decorative image" />
+            <div class="text">作者 : 陳思媛Szu-Yuan Chen</div>
+          </div>
+        </section>
         <section data-title="投影片標題 1">
           <p>工作內容回顧</p>
           <pre><code data-trim class="language-html">
@@ -60,11 +73,14 @@
     <script>
       // 設置標題
       const titleContainer = document.getElementById("slideTitle");
+      const frontTitleContainer = document.getElementById("slideFrontTitle");
 
       const updateTitle = () => {
         const currentSlide = Reveal.getCurrentSlide();
-        const title = currentSlide.getAttribute("data-title") || "未命名";
-        titleContainer.textContent = title;
+        titleContainer.textContent =
+          currentSlide.getAttribute("data-title") || "";
+        frontTitleContainer.textContent =
+          currentSlide.getAttribute("front-title") || "";
       };
 
       Reveal.on("slidechanged", updateTitle);
