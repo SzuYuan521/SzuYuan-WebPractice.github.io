@@ -1,3 +1,11 @@
+body {
+  background-image: url("/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Noto Sans TC", sans-serif, Arial; /* 使用Noto Sans TC 思源黑體 */
+}
+
 /* 固定投影片標題位置 */
 /* 距離頂部50px, 水平置中, 確保標題位於內容上方不會被重疊, 設置container是viewport寬度的80%  */
 /* 標題文字顏色為白色, 大小固定40px */
@@ -10,16 +18,34 @@
   padding: 10px;
   text-align: center;
   width: 80%;
-  color: white;
-  font-size: 40px;
+  color: #e1a383;
+  font-size: 3.5vw;
+  margin-bottom: 20px;
 }
 
 /* 給內容留出頂部空間以防內容重疊標題 */
 .reveal .slides section {
-  padding-top: 80px;
+  padding: 20px;
+  box-sizing: border-box; /* 確保padding包含在元素總寬度內 */
+  font-size: 1.5vw;
 }
 
 /* 固定內文文字大小 */
 .reveal .slides section p {
-  font-size: 24px;
+  font-size: 1.5vw;
+  color: #e1a383;
+}
+
+.gradient-text {
+  font-weight: 550; /* 設置粗體但不那麼粗 */
+  background: linear-gradient(to right, #c55b3a, #e1a383, #d3ae9b); /* 漸層 */
+  -webkit-background-clip: text; /* 使背景漸變用於文字, 基於WebKit的瀏覽器 */
+  -webkit-text-fill-color: transparent; /* 文字填充設為透明, 使背景漸變可見 */
+  text-align: center; /* 文字置中對齊 */
+}
+
+/* 重點文字 */
+.highlight-text {
+  color: #c55b3a;
+  font-weight: bold;
 }
