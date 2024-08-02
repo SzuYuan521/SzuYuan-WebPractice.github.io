@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/background.jpg");
+  background-image: url("/img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -94,4 +94,55 @@ body {
   position: relative;
   color: white;
   z-index: 2; /* 確保文字在圖片上方 */
+}
+
+/* 手機 */
+@media (max-width: 600px) {
+  .title-container {
+    font-size: 7vw;
+  }
+  .front-title-container {
+    font-size: 10vw;
+  }
+  .reveal .slides section p {
+    font-size: 3vw;
+  }
+  /* 副標題 */
+  .reveal .slides section p.subtitle {
+    font-size: 4vw;
+  }
+}
+
+/* 針對平板 */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .title-container {
+    font-size: 7vw;
+  }
+  .front-title-container {
+    font-size: 10vw;
+  }
+  .reveal .slides section p {
+    font-size: 3vw;
+  }
+  /* 副標題 */
+  .reveal .slides section p.subtitle {
+    font-size: 4vw;
+  }
+}
+
+/* 針對桌機 */
+@media (min-width: 1025px) {
+  .title-container {
+    font-size: 3.5vw;
+  }
+  .front-title-container {
+    font-size: 5vw;
+  }
+  .reveal .slides section p {
+    font-size: 1.2vw;
+  }
+  /* 副標題 */
+  .reveal .slides section p.subtitle {
+    font-size: 1.8vw;
+  }
 }
