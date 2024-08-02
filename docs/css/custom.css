@@ -1,9 +1,9 @@
 body {
-  background-image: url("../img/background.jpg");
+  /* background-image: url("/img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  font-family: "Noto Sans TC", sans-serif, Arial; /* 使用Noto Sans TC 思源黑體 */
+  background-position: center; */
+  font-family: "Noto Sans TC", sans-serif; /* 使用Noto Sans TC 思源黑體 */
 }
 
 /* 固定投影片標題位置 */
