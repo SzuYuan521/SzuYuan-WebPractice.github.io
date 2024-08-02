@@ -84,10 +84,14 @@
 
       const updateTitle = () => {
         const currentSlide = Reveal.getCurrentSlide();
-        titleContainer.textContent =
-          currentSlide.getAttribute("data-title") || "";
-        frontTitleContainer.textContent =
-          currentSlide.getAttribute("front-title") || "";
+        if (currentSlide) {
+          titleContainer.textContent =
+            currentSlide.getAttribute("data-title") || "";
+          frontTitleContainer.textContent =
+            currentSlide.getAttribute("front-title") || "";
+        } else {
+          console.log(`currentSlide = ${currentSlide}`);
+        }
       };
 
       // More info about initialization & config:
@@ -100,14 +104,16 @@
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       });
 
-      // 監聽裝置大小變化
-      window.addEventListener("resize", updateTitle);
-
       // 監聽 Reveal.js 初始化完成事件
       Reveal.addEventListener("ready", updateTitle);
 
       // 監聽 Reveal.js 的投影片切換事件(section跟slide切換都會觸發)
       Reveal.addEventListener("slidechanged", updateTitle);
+
+      // 監聽裝置大小變化, 加入小延遲以確保當前投影片已經正確更新
+      window.addEventListener("resize", () => {
+        setTimeout(updateTitle, 100);
+      });
     </script>
   </body>
 </html>
