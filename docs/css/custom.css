@@ -21,6 +21,7 @@ body {
   color: #e1a383;
   font-size: 3.5vw;
   margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 .front-title-container {
@@ -35,6 +36,7 @@ body {
   color: #e1a383;
   font-size: 5vw;
   margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 /* 給內容留出頂部空間以防內容重疊標題 */
@@ -99,17 +101,17 @@ body {
 /* 手機 */
 @media (max-width: 600px) {
   .title-container {
-    font-size: 9vw;
+    font-size: 7vw;
   }
   .front-title-container {
-    font-size: 12vw;
+    font-size: 10vw;
   }
   .reveal .slides section p {
-    font-size: 6vw;
+    font-size: 4vw;
   }
   /* 副標題 */
   .reveal .slides section p.subtitle {
-    font-size: 7vw;
+    font-size: 5vw;
   }
 }
 
