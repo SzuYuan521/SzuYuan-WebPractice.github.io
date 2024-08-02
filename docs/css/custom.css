@@ -99,17 +99,17 @@ body {
 /* 手機 */
 @media (max-width: 600px) {
   .title-container {
-    font-size: 7vw;
+    font-size: 9vw;
   }
   .front-title-container {
-    font-size: 10vw;
+    font-size: 12vw;
   }
   .reveal .slides section p {
-    font-size: 3vw;
+    font-size: 6vw;
   }
   /* 副標題 */
   .reveal .slides section p.subtitle {
-    font-size: 4vw;
+    font-size: 7vw;
   }
 }
 
