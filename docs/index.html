@@ -78,19 +78,6 @@
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>
     <script>
-      Reveal.on("slidechanged", updateTitle);
-      Reveal.on("ready", updateTitle);
-
-      // More info about initialization & config:
-      // - https://revealjs.com/initialization/
-      // - https://revealjs.com/config/
-      Reveal.initialize({
-        hash: true,
-
-        // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
-      });
-
       // 設置標題
       const titleContainer = document.getElementById("slideTitle");
       const frontTitleContainer = document.getElementById("slideFrontTitle");
@@ -103,11 +90,21 @@
           currentSlide.getAttribute("front-title") || "";
       };
 
-      // 初始先調用一次
-      updateTitle();
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
 
       // 監聽裝置大小變化
       window.addEventListener("resize", updateTitle);
+
+      // 監聽 Reveal.js 初始化完成事件
+      Reveal.addEventListener("ready", updateTitle);
 
       // 監聽 Reveal.js 的投影片切換事件(section跟slide切換都會觸發)
       Reveal.addEventListener("slidechanged", updateTitle);
