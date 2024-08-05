@@ -33,10 +33,10 @@
     <div class="reveal">
       <div class="slides">
         <div class="title-container gradient-text" id="slideTitle">
-          預設標題
+          標題載入錯誤, 請按F5或重新整理
         </div>
         <div class="front-title-container gradient-text" id="slideFrontTitle">
-          預設標題
+          標題載入錯誤, 請按F5或重新整理
         </div>
         <section front-title="投影片封面標題">
           <p class="subtitle">投影片副標題</p>
@@ -46,13 +46,29 @@
             <div class="text">作者 : 陳思媛Szu-Yuan Chen</div>
           </div>
         </section>
+        <section data-title="目錄">
+          <ul>
+            <li class="no-bullets">
+              <a href="#/0" class="table-of-contents">簡歷</a>
+              <div class="table-of-contents-slide-number">2</div>
+            </li>
+            <li class="no-bullets">
+              <a href="#/2" class="table-of-contents">自我介紹</a>
+              <div class="table-of-contents-slide-number">2</div>
+            </li>
+            <li class="no-bullets">
+              <a href="#/1" class="table-of-contents">作品集</a>
+              <div class="table-of-contents-slide-number">2</div>
+            </li>
+          </ul>
+        </section>
         <section data-title="投影片標題 1">
           <p>工作內容回顧</p>
           <pre><code data-trim class="language-html">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat, nobis, enim pariatur sequi et aut ipsum, laudantium corrupti sunt culpa modi. Quis accusamus dolores sequi aliquam molestias mollitia minima?</p>
           </code></pre>
         </section>
-        <section data-title="投影片標題 2">
+        <section data-title="作品集">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum,
             sapiente
@@ -73,6 +89,9 @@
       </div>
     </div>
 
+    <!-- 頁碼容器 -->
+    <div class="slide-number" id="slideNumber">1</div>
+
     <script src="dist/reveal.js"></script>
     <script src="plugin/notes/notes.js"></script>
     <script src="plugin/markdown/markdown.js"></script>
@@ -84,35 +103,46 @@
 
       const updateTitle = () => {
         const currentSlide = Reveal.getCurrentSlide();
+        console.log(`currentSlide = ${currentSlide}`);
         if (currentSlide) {
           titleContainer.textContent =
             currentSlide.getAttribute("data-title") || "";
           frontTitleContainer.textContent =
             currentSlide.getAttribute("front-title") || "";
         } else {
-          console.log(`currentSlide = ${currentSlide}`);
+          console.log(`Error : currentSlide = ${currentSlide}`);
         }
       };
+
+      // 更新投影片頁碼
+      function updateSlideNumber() {
+        const slideNumberElement = document.getElementById("slideNumber");
+        const currentSlideIndex = Reveal.getIndices().h; // 封面當第0頁
+        const totalSlides = Reveal.getTotalSlides();
+        slideNumberElement.textContent =
+          currentSlideIndex == 0 ? "" : `${currentSlideIndex}`; // 封面不顯示
+      }
 
       // More info about initialization & config:
       // - https://revealjs.com/initialization/
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       });
 
       // 監聽 Reveal.js 初始化完成事件
-      Reveal.addEventListener("ready", updateTitle);
+      Reveal.addEventListener("ready", updateTitle); // 更新標題
+      Reveal.addEventListener("ready", updateSlideNumber); // 更新頁碼
 
       // 監聽 Reveal.js 的投影片切換事件(section跟slide切換都會觸發)
-      Reveal.addEventListener("slidechanged", updateTitle);
+      Reveal.addEventListener("slidechanged", updateTitle); // 更新標題
+      Reveal.addEventListener("slidechanged", updateSlideNumber); // 更新頁碼
 
       // 監聽裝置大小變化, 加入小延遲以確保當前投影片已經正確更新
       window.addEventListener("resize", () => {
-        setTimeout(updateTitle, 100);
+        requestAnimationFrame(updateTitle);
       });
     </script>
   </body>

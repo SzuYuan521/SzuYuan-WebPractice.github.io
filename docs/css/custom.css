@@ -24,6 +24,7 @@ body {
   white-space: nowrap;
 }
 
+/* 封面標題 */
 .front-title-container {
   position: fixed;
   top: 130px;
@@ -98,6 +99,58 @@ body {
   z-index: 2; /* 確保文字在圖片上方 */
 }
 
+/* 頁碼 */
+.slide-number {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1vw;
+  color: #e1a383;
+  padding: 10px;
+  margin: 0;
+  z-index: 1000; /* 確保頁碼在最上層 */
+}
+
+/* 目錄連結 */
+.table-of-contents {
+  font-size: 2.2vw;
+  color: #e1a383;
+  text-decoration: none; /* 去掉底線 */
+  font-weight: 550;
+}
+
+.table-of-contents:hover {
+  color: #e1a383;
+  text-decoration: underline; /* hover時添加底線 */
+}
+
+.table-of-contents:visited {
+  color: #e1a383;
+}
+
+.table-of-contents:active {
+  color: #e1a383;
+}
+
+.table-of-contents-slide-number {
+  font-size: 1.5vw;
+  color: #e1a383;
+  margin-left: auto;
+}
+
+ul {
+  margin: 10px 80px;
+}
+
+/* 不顯示圓點or任何樣式 */
+.no-bullets {
+  list-style-type: none;
+  display: flex;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
 /* 手機 */
 @media (max-width: 600px) {
   .title-container {
@@ -107,11 +160,22 @@ body {
     font-size: 10vw;
   }
   .reveal .slides section p {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   /* 副標題 */
   .reveal .slides section p.subtitle {
-    font-size: 5vw;
+    font-size: 6vw;
+  }
+  .slide-number {
+    font-size: 4vw;
+  }
+
+  .table-of-contents {
+    font-size: 6vw;
+  }
+
+  .table-of-contents-slide-number {
+    font-size: 5.5vw;
   }
 }
 
@@ -130,6 +194,17 @@ body {
   .reveal .slides section p.subtitle {
     font-size: 4vw;
   }
+  .slide-number {
+    font-size: 2vw;
+  }
+
+  .table-of-contents {
+    font-size: 4vw;
+  }
+
+  .table-of-contents-slide-number {
+    font-size: 3.5vw;
+  }
 }
 
 /* 針對桌機 */
@@ -146,5 +221,16 @@ body {
   /* 副標題 */
   .reveal .slides section p.subtitle {
     font-size: 1.8vw;
+  }
+  .slide-number {
+    font-size: 1vw;
+  }
+
+  .table-of-contents {
+    font-size: 2.2vw;
+  }
+
+  .table-of-contents-slide-number {
+    font-size: 1.5vw;
   }
 }
