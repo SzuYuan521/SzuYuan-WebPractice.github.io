@@ -32,21 +32,21 @@
   >
     <div class="reveal">
       <div class="slides">
-        <div class="title-container gradient-text" id="slideTitle">
-          標題載入錯誤, 請按F5或重新整理
-        </div>
-        <div class="front-title-container gradient-text" id="slideFrontTitle">
-          標題載入錯誤, 請按F5或重新整理
-        </div>
+        <div class="title-container gradient-text" id="slideTitle"></div>
+        <div
+          class="front-title-container gradient-text"
+          id="slideFrontTitle"
+        ></div>
         <section front-title="投影片封面標題">
           <p class="subtitle">投影片副標題</p>
           <p>投影片說明</p>
           <div class="grid-container" style="padding: 20px">
             <img src="img/oblong-1.png" alt="Decorative image" />
-            <div class="text">作者 : 陳思媛Szu-Yuan Chen</div>
+            <p class="text white-text small-text">作者 : 陳思媛Szu-Yuan Chen</p>
           </div>
         </section>
-        <section data-title="目錄">
+        <section>
+          <p class="left-title gradient-text">目錄</p>
           <ul>
             <li class="no-bullets">
               <a href="#/0" class="table-of-contents">簡歷</a>
@@ -57,7 +57,7 @@
               <div class="table-of-contents-slide-number">2</div>
             </li>
             <li class="no-bullets">
-              <a href="#/1" class="table-of-contents">作品集</a>
+              <a href="#/3" class="table-of-contents">作品集</a>
               <div class="table-of-contents-slide-number">2</div>
             </li>
           </ul>
@@ -67,6 +67,31 @@
           <pre><code data-trim class="language-html">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat, nobis, enim pariatur sequi et aut ipsum, laudantium corrupti sunt culpa modi. Quis accusamus dolores sequi aliquam molestias mollitia minima?</p>
           </code></pre>
+        </section>
+        <section front-title="作品集">
+          <p class="subtitle">使用Html/Css/Javascript/React</p>
+          <ul>
+            <li class="no-bullets">
+              <a href="#/0" class="table-of-contents">網頁小遊戲</a>
+              <div class="table-of-contents-slide-number">2</div>
+            </li>
+          </ul>
+        </section>
+        <section data-title="踩地雷" class="left-text-right-img">
+          <div class="left">
+            <p class="subtitle">遊戲規則</p>
+            <p>
+              9*9 格格子裡面，有 10 顆地雷<br />
+              點擊格子後，格中的數字代表以那個數字為中心，其周圍的 8
+              個方格之中包含的地雷數即是那個數字<br />
+              若排除所有安全格子沒踩到地雷，則遊戲勝利<br />
+              反之，踩到地雷，則遊戲結束<br />
+              標記模式可以標記你覺得是地雷的格子
+            </p>
+          </div>
+          <div class="right">
+            <img src="/img/Minesweeper01.png" alt="踩地雷展示圖片" />
+          </div>
         </section>
         <section data-title="作品集">
           <p>
@@ -120,7 +145,7 @@
         const currentSlideIndex = Reveal.getIndices().h; // 封面當第0頁
         const totalSlides = Reveal.getTotalSlides();
         slideNumberElement.textContent =
-          currentSlideIndex == 0 ? "" : `${currentSlideIndex}`; // 封面不顯示
+          currentSlideIndex == 0 ? " " : `${currentSlideIndex}`; // 封面不顯示
       }
 
       // More info about initialization & config:
@@ -142,7 +167,9 @@
 
       // 監聽裝置大小變化, 加入小延遲以確保當前投影片已經正確更新
       window.addEventListener("resize", () => {
-        requestAnimationFrame(updateTitle);
+        setTimeout(() => {
+          requestAnimationFrame(updateTitle);
+        }, 100);
       });
     </script>
   </body>

@@ -60,6 +60,33 @@ body {
   color: #e1a383;
 }
 
+/* 白色文字 */
+.reveal .slides section p.white-text {
+  color: #ffffff;
+}
+
+/* PC:1.2vw, 平板:2vw, 手機:2.5vw */
+.reveal .slides section p.small-text {
+  font-size: 1.2vw;
+}
+
+/* 靠左大標題 */
+.reveal .slides section p.left-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 10;
+  padding: 10px 50px;
+  text-align: left;
+  width: 80%;
+  color: #e1a383;
+  font-size: 5vw;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+/* 漸層文字 */
 .gradient-text {
   font-weight: 550; /* 設置粗體但不那麼粗 */
   background: linear-gradient(
@@ -93,9 +120,9 @@ body {
   z-index: 1; /* 確保圖片在文字下面 */
 }
 
-.grid-container .text {
+.grid-container p.text {
   position: relative;
-  color: white;
+  font-size: 1.2vw;
   z-index: 2; /* 確保文字在圖片上方 */
 }
 
@@ -120,6 +147,7 @@ body {
   font-weight: 550;
 }
 
+/**/
 .table-of-contents:hover {
   color: #e1a383;
   text-decoration: underline; /* hover時添加底線 */
@@ -133,14 +161,17 @@ body {
   color: #e1a383;
 }
 
+/* table-of-contents的0.7倍 */
 .table-of-contents-slide-number {
-  font-size: 1.5vw;
+  display: flex;
+  font-size: 1.54vw;
   color: #e1a383;
   margin-left: auto;
+  padding: 10px 0px;
 }
 
 ul {
-  margin: 10px 80px;
+  margin: 10px 150px 10px 350px; /* 上 右 下 左 */
 }
 
 /* 不顯示圓點or任何樣式 */
@@ -149,6 +180,44 @@ ul {
   display: flex;
   margin: 20px;
   box-sizing: border-box;
+}
+
+.left-text-right-img {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.right {
+  width: 380px;
+  float: right; /* 圖片在右邊 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
+  box-sizing: border-box;
+}
+
+/* 切片尺寸越大, 漸變分布越寬鬆 */
+.right img {
+  display: block;
+  width: 100%;
+}
+
+.left {
+  float: left; /* 文字在左邊 */
+  width: 380px;
+  height: 420px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
+  background-color: #f9ece6;
+  box-sizing: border-box;
+  overflow: auto;
+  scrollbar-width: 1;
+}
+
+.left p {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.left p.subtitle {
+  text-align: center;
 }
 
 /* 手機 */
@@ -175,7 +244,15 @@ ul {
   }
 
   .table-of-contents-slide-number {
-    font-size: 5.5vw;
+    font-size: 4.2vw;
+  }
+
+  .reveal .slides section p.small-text {
+    font-size: 2.5vw;
+  }
+
+  .reveal .slides section p.left-title {
+    font-size: 10vw;
   }
 }
 
@@ -203,7 +280,15 @@ ul {
   }
 
   .table-of-contents-slide-number {
-    font-size: 3.5vw;
+    font-size: 2.8vw;
+  }
+
+  .reveal .slides section p.small-text {
+    font-size: 2vw;
+  }
+
+  .reveal .slides section p.left-title {
+    font-size: 10vw;
   }
 }
 
@@ -231,6 +316,14 @@ ul {
   }
 
   .table-of-contents-slide-number {
-    font-size: 1.5vw;
+    font-size: 1.54vw;
+  }
+
+  .reveal .slides section p.small-text {
+    font-size: 1.2vw;
+  }
+
+  .reveal .slides section p.left-title {
+    font-size: 5vw;
   }
 }
