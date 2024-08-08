@@ -90,7 +90,24 @@
             </p>
           </div>
           <div class="right">
-            <img src="/img/Minesweeper01.png" alt="踩地雷展示圖片" />
+            <img src="img/Minesweeper01.png" alt="踩地雷展示圖片" />
+          </div>
+        </section>
+        <section data-title="踩地雷" class="left-text-right-img">
+          <div class="left">
+            <p class="subtitle">遊戲面版創建</p>
+          </div>
+
+          <div class="right-code">
+            <pre>
+              <code data-trim class="language-html">
+              let mineArray = Array(mineCount)
+              .fill("mine")
+              .concat(Array(width * height - mineCount)
+              .fill("safe"));
+              shuffle(mineArray);
+              </code>
+            </pre>
           </div>
         </section>
         <section data-title="作品集">
