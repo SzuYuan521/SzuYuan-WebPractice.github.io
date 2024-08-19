@@ -431,7 +431,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // bonus:牌型的bonus盲盒數, report_text:文字播報, audio:音效播放
   const reportObj = {
     ALL_DIFFERENT: {
-      bonus: 5,
+      bonus: 20,
       report_text: `全家福+${this.bonus}包`,
       audio: new Audio("sounds/all-different.mp3"),
     },
@@ -450,7 +450,7 @@ document.addEventListener("DOMContentLoaded", () => {
       },
     },
     ALL_CLEAN: {
-      bonus: 5,
+      bonus: 10,
       audio: new Audio("sounds/all-clean.mp3"),
       get report_text() {
         return `全清+${this.bonus}包`;
