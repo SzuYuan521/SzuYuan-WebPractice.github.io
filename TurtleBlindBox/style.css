@@ -180,12 +180,82 @@ body {
   animation-fill-mode: none;
 }
 
+/* 小視窗樣式 */
+#result-window {
+  width: 600px;
+  height: 600px;
+  background-image: url("img/result-bg.png");
+  background-size: cover;
+  color: black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  flex-direction: column; /* 垂直排列子元素 */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 100;
+}
+
+#result-title,
+#result-sum {
+  font-size: 30px;
+}
+
+#result-grid {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+}
+
+.result {
+  flex-direction: column; /* 使子元素垂直排列 */
+  align-items: center;
+  text-align: center;
+}
+
+.result img {
+  width: 50px;
+  height: 50px;
+}
+
+.result p {
+  margin: 0;
+}
+
+#result-sum p {
+  margin: 10px;
+}
+
+#again-button {
+  background-image: url("img/button-bg.png");
+  background-size: cover;
+  width: 132px;
+  height: 71px;
+  cursor: pointer; /* 滑鼠懸停時顯示手型光標 */
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#again-button:hover {
+  transform: scale(1.05);
+}
+
+#again-button:active {
+  transform: scale(0.95);
+}
+
 #author {
   color: white;
   font-size: 20px;
   text-shadow: -1px -1px 0 rgb(236, 42, 107), 1px -1px 0 rgb(236, 42, 107),
     -1px 1px 0 rgb(236, 42, 107), 1px 1px 0 rgb(236, 42, 107);
-  padding: 10px;
   text-align: center;
   position: fixed;
   bottom: 0;

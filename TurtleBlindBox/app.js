@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const gameContainer = document.getElementById("gameContainer");
   const orderSelection = document.getElementById("order-selection");
   const reportDiv = document.getElementById("report");
+  const againButton = document.getElementById("again-button");
+
+  againButton.addEventListener("click", () => {
+    location.reload(); // 重整網頁
+  });
 
   // 準備音效
   const clickSound = new Audio("sounds/click-sound.mp3");
@@ -199,10 +204,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     cell.removeEventListener("click", revealBlindBox);
 
-    // 許願色烏龜處理
+    // 幸運色烏龜處理
     if (color == luckyTurtle) {
-      orderNumber += reportObj["WISH"].bonus;
-      report("WISH");
+      orderNumber += reportObj["LUCKY"].bonus;
+      report("LUCKY");
     }
 
     // 檢查是不是9格全拆完, 如果不是則return
@@ -243,7 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // 判斷有沒有特殊牌型, 有的話給盲盒
-  /*  許願色+1包(開盲盒時先加)
+  /*  幸運色+1包(開盲盒時先加)
       全家福(9個不一樣)+5包
       連線(三個連線)+5包
       對碰(兩個同色)+1包
@@ -451,11 +456,11 @@ document.addEventListener("DOMContentLoaded", () => {
         return `全清+${this.bonus}包`;
       },
     },
-    WISH: {
+    LUCKY: {
       bonus: 1,
-      audio: new Audio("sounds/wish.mp3"),
+      audio: new Audio("sounds/lucky.mp3"),
       get report_text() {
-        return `許願色+${this.bonus}包`;
+        return `幸運色+${this.bonus}包`;
       },
     },
   };
@@ -481,10 +486,23 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function gameEnd() {
+    let sum = 0;
+
     // 統計烏龜數量
     Object.entries(turtleCount).forEach(([color, count]) => {
       console.log(color + " : " + count);
+
+      const resultText = document.getElementById(`${color}-result`);
+      resultText.textContent = `${count}隻`;
+
+      sum += count;
     });
+
+    const resultSumText = document.getElementById("result-sum");
+    resultSumText.textContent = sum + "隻";
+
+    const resultWindow = document.getElementById("result-window");
+    resultWindow.style.display = "flex";
   }
 
   // 動畫事件處理函數
