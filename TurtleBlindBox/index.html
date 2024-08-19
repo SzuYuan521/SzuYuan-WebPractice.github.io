@@ -7,10 +7,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="order-selection">
-      <button id="startButton">開始遊戲</button>
+    <div class="description" id="rule-text">
+      <div id="rule">
+        許願色+1包<br />
+        對碰(兩個同色)+1包<br />
+        連線(三個連線)+5包<br />
+        清空(9個全消)+5包<br />
+        全家福(9個不一樣)+5包
+      </div>
+      <div id="count-text">
+        <img id="turtle-blind-box-img" src="img/turtle-blind-box.png" alt="" />
+        <p>還有N包</p>
+      </div>
+      <div id="luckyColor">
+        <img id="lucky-turtle-img" src="img/blue-turtle.png" alt="" />
+        <p>幸運色</p>
+      </div>
+      <div id="report">全家福+1</div>
     </div>
+
+    <div id="tip-text">
+      <p>請選擇訂單</p>
+    </div>
+
+    <div id="order-selection">
+      <img src="img/turtle-blind-box.png" alt="" />
+      <img src="img/turtle-blind-box.png" alt="" />
+      <img src="img/turtle-blind-box.png" alt="" />
+      <button data-number="9">9包</button>
+      <button data-number="18">18包</button>
+      <button data-number="36">36包</button>
+    </div>
+
     <div id="gameContainer"></div>
+
     <p id="author">&#169; 2024 Author : Szu-Yuan Chen</p>
     <script src="app.js"></script>
   </body>

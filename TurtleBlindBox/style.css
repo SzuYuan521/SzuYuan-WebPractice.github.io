@@ -3,19 +3,22 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: Arial;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
 }
 
 #gameContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 250px);
-  grid-template-rows: repeat(3, 250px);
+  display: block;
+  grid-template-columns: repeat(3, 180px);
+  grid-template-rows: repeat(3, 180px);
   gap: 2px;
   margin-top: 20px;
 }
 
 .cell {
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
   background-color: #d8f3fa;
   display: flex;
   align-items: center;
@@ -43,9 +46,138 @@ body {
   font-weight: bold;
 }
 
-#startButton {
-  font-size: 20px;
-  color: red;
+#order-selection {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: 100px 50px;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#order-selection button {
+  background-color: #80bef1; /* 按鈕背景色 */
+  border: none; /* 去掉邊框 */
+  color: white; /* 文字顏色 */
+  padding: 10px 10px; /* 調整內邊距以確保文字在按鈕內部 */
+  text-align: center; /* 文字置中 */
+  text-decoration: none; /* 去掉下劃線 */
+  display: inline-block; /* 行內塊元素 */
+  font-size: 16px; /* 字體大小 */
+  margin: 4px 2px; /* 外邊距 */
+  cursor: pointer; /* 滑鼠懸停時顯示手型光標 */
+  border-radius: 8px; /* 圓角效果 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+  transition: background-color 0.3s, transform 0.3s; /* 過渡效果 */
+  line-height: 1.2; /* 行高,確保多行文字時按鈕高度合適 */
+}
+
+#order-selection button:hover {
+  background-color: #b5cee2; /* hover時的背景色 */
+  transform: scale(1.05); /* hover時放大按鈕 */
+}
+
+#order-selection button:active {
+  background-color: #57a1dd; /* 點擊時的背景色 */
+  transform: scale(0.95); /* 點擊時縮小按鈕 */
+}
+
+#order-selection img {
+  width: 100px;
+  height: 100px;
+}
+
+.description {
+  width: 700px;
+  margin: 10px auto;
+  position: relative;
+  visibility: hidden;
+  display: flex;
+  justify-content: center; /* 水平居中對齊 */
+  align-items: center; /* 垂直居中對齊 */
+  visibility: hidden;
+}
+
+.description > div {
+  flex: 1; /* 使每個子元素佔據相同的寬度 */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#count-text,
+#luckyColor {
+  flex-direction: column; /* 使子元素垂直排列 */
+  align-items: center;
+  text-align: center;
+}
+
+#count-text img,
+#luckyColor img {
+  width: 100px;
+  height: 100px;
+}
+
+#tip-text p {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#report {
+  width: 300px;
+  height: 200px;
+  position: absolute; /* 絕對定位, 相對於.description 定位 */
+  right: 5px;
+  top: 60px;
+  font-size: 35px;
+  color: #ffffff;
+  text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000,
+    2px 2px 0 #000000;
+  pointer-events: none; /* 確保不影響點擊事件 */
+  background-image: url("img/report-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+  visibility: hidden;
+}
+
+/* 放大縮小動畫 */
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    visibility: visible;
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+/* 應用動畫 */
+.zoom-in-out {
+  animation: zoomInOut 0.1s;
+}
+
+.zoom-in {
+  animation: zoomIn 1s;
+  animation-fill-mode: none;
 }
 
 #author {
@@ -55,6 +187,7 @@ body {
     -1px 1px 0 rgb(236, 42, 107), 1px 1px 0 rgb(236, 42, 107);
   padding: 10px;
   text-align: center;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
