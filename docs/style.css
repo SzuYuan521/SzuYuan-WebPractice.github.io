@@ -1,0 +1,102 @@
+html {
+  scroll-behavior: smooth; /* 啟用平滑滾動效果 */
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif; /* 使用Noto Sans TC 思源黑體 */
+  margin: 0;
+  padding: 0;
+}
+
+/* 導覽列 */
+#navbar {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #4d4747;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none; /* 去掉下划線 */
+  font-size: 18px;
+}
+
+#navbar a:hover {
+  color: #95d2eb;
+}
+
+#game-grid {
+  margin-top: 20px;
+  display: grid;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+/* 根據螢幕尺寸調整列 */
+@media (max-width: 600px) {
+  #game-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  #game-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+  #game-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.grid-item {
+  background-color: #e6f9ff;
+  border: 1px solid #95d2eb;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-item:hover {
+  scale: 1.05;
+  background-color: #bde5f5;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-item p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Contact 部分 */
+#contact {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #e6f9ff;
+}
+
+#contact h2 {
+  margin-top: 0;
+}
+
+footer {
+  width: 100%;
+  background-color: #f8f9fa;
+  color: #474343;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
