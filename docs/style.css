@@ -92,6 +92,15 @@ body {
   margin-top: 0;
 }
 
+#contact a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
 footer {
   width: 100%;
   background-color: #f8f9fa;
