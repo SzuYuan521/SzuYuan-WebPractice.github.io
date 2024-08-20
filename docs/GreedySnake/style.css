@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myCanvas {
+  border: 5px solid lightblue;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#myScore {
+  margin-top: 1rem;
+}
+
+#myScore,
+#highestScore {
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+#Start {
+  padding: 0.25rem 0.5rem;
+  background-color: yellow;
+  font-size: 1.15rem;
+  display: block;
+  margin-top: 15px;
+}
+
+#author {
+  color: white;
+  font-size: 20px;
+  text-shadow: -1px -1px 0 rgb(236, 42, 107), 1px -1px 0 rgb(236, 42, 107),
+    -1px 1px 0 rgb(236, 42, 107), 1px 1px 0 rgb(236, 42, 107);
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
