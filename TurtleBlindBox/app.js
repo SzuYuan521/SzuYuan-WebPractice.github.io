@@ -249,10 +249,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 判斷有沒有特殊牌型, 有的話給盲盒
   /*  幸運色+1包(開盲盒時先加)
-      全家福(9個不一樣)+5包
+      全家福(9個不一樣)+20包
       連線(三個連線)+5包
       對碰(兩個同色)+1包
-      清空(9個全消)+5包 */
+      清空(9個全消)+10包 */
   async function judgmentScore() {
     await delay(1000); // 等待1秒
 
