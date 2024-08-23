@@ -1,3 +1,4 @@
+using AccountPractice.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,8 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true; // 確保 Session Cookie 只能由伺服器訪問
     options.Cookie.IsEssential = true; // 必須設置為必需的，以便即使用戶禁用了 Cookie，也能使用 Session
 });
+
+builder.Services.AddHostedService<ArticleCleanupService>();
 
 var app = builder.Build();
 
@@ -34,6 +37,8 @@ app.UseRouting();
 // 確保 UseSession 在 UseRouting 之後，UseAuthorization 之前
 app.UseSession();
 
+// 使用身份驗證和授權
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

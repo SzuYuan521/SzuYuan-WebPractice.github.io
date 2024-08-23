@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\migrations\\20240823054512_updateuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:migrations\\20240823054512_updateuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,20 +11,96 @@
       "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\models\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:models\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\migrations\\20240822135056_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:migrations\\20240822135056_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\migrations\\20240823054512_updateuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:migrations\\20240823054512_updateuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\migrations\\20240823120532_addarticles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:migrations\\20240823120532_addarticles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\viewcomponent\\latestarticlesviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\viewcomponent\\latestarticlesviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\article\\articlelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\article\\articlelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\article\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\article\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\shared\\components\\latestarticles\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\shared\\components\\latestarticles\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\article\\articleindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\article\\articleindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\article\\articlelist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\article\\articlelist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\accountpractice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:accountpractice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\article\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\article\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\services\\articlecleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:services\\articlecleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\models\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:models\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -57,14 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAF50F16-0802-42C4-974E-528ADA9A6A62}|AccountPractice.csproj|d:\\web\\practice\\web-practice\\accountpractice\\accountpractice\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -98,102 +142,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240823054512_UpdateUserConfiguration.cs",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Migrations\\20240823054512_UpdateUserConfiguration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240823054512_UpdateUserConfiguration.cs",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Migrations\\20240823054512_UpdateUserConfiguration.cs",
-              "RelativeToolTip": "Migrations\\20240823054512_UpdateUserConfiguration.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "20240822135056_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Migrations\\20240822135056_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240822135056_InitialCreate.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Migrations\\20240822135056_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240822135056_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T05:45:55.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAADwvxUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T13:18:42.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwBwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T12:31:01.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T13:10:19.948Z",
+              "WhenOpened": "2024-08-23T20:10:36.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T13:09:33.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T13:09:45.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Title": "20240823054512_UpdateUserConfiguration.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Migrations\\20240823054512_UpdateUserConfiguration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240823054512_UpdateUserConfiguration.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Migrations\\20240823054512_UpdateUserConfiguration.cs",
+              "RelativeToolTip": "Migrations\\20240823054512_UpdateUserConfiguration.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T11:42:03.925Z",
+              "WhenOpened": "2024-08-23T20:10:32.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -206,32 +185,282 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Models\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "Models\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Models\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "Models\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAwCUAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T05:42:04.405Z",
+              "WhenOpened": "2024-08-22T11:42:03.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240823120532_AddArticles.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Migrations\\20240823120532_AddArticles.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240823120532_AddArticles.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Migrations\\20240823120532_AddArticles.cs",
+              "RelativeToolTip": "Migrations\\20240823120532_AddArticles.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowCYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T20:05:52.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ArticleController.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "Controllers\\ArticleController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAwD0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T11:53:11.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Article.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "Models\\Article.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Models\\Article.cs",
+              "RelativeToolTip": "Models\\Article.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T11:50:45.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArticleList.cshtml",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Article\\ArticleList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Article\\ArticleList.cshtml",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Article\\ArticleList.cshtml",
+              "RelativeToolTip": "Views\\Article\\ArticleList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T12:10:24.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LatestArticlesViewComponent.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\ViewComponent\\LatestArticlesViewComponent.cs",
+              "RelativeDocumentMoniker": "Views\\ViewComponent\\LatestArticlesViewComponent.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\ViewComponent\\LatestArticlesViewComponent.cs",
+              "RelativeToolTip": "Views\\ViewComponent\\LatestArticlesViewComponent.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvx4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:13:40.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Article\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Article\\Create.cshtml",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Article\\Create.cshtml",
+              "RelativeToolTip": "Views\\Article\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T17:41:59.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwEcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T12:31:01.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T11:38:21.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Shared\\Components\\LatestArticles\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\LatestArticles\\Default.cshtml",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Shared\\Components\\LatestArticles\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\LatestArticles\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T12:16:28.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T13:09:33.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAYAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwB4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T13:11:06.345Z"
+              "WhenOpened": "2024-08-22T13:11:06.345Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
+              "Title": "ArticleIndex.cshtml",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Article\\ArticleIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Article\\ArticleIndex.cshtml",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Article\\ArticleIndex.cshtml",
+              "RelativeToolTip": "Views\\Article\\ArticleIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T12:25:11.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ArticleList.cshtml.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Article\\ArticleList.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Article\\ArticleList.cshtml.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Article\\ArticleList.cshtml.cs",
+              "RelativeToolTip": "Views\\Article\\ArticleList.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:21:25.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T11:40:02.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccountPractice.csproj",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\AccountPractice.csproj",
+              "RelativeDocumentMoniker": "AccountPractice.csproj",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\AccountPractice.csproj",
+              "RelativeToolTip": "AccountPractice.csproj",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwB0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-23T16:30:14.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Article\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Article\\Edit.cshtml",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Article\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Article\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T12:27:01.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T13:09:45.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ArticleCleanupService.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Services\\ArticleCleanupService.cs",
+              "RelativeDocumentMoniker": "Services\\ArticleCleanupService.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Services\\ArticleCleanupService.cs",
+              "RelativeToolTip": "Services\\ArticleCleanupService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:03:11.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAzwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:18:42.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Models\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Models\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Models\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Models\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwCMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T05:42:04.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T13:10:19.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -243,20 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T11:38:21.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml.cs",
@@ -268,43 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T14:31:29.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T13:17:50.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T11:40:02.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -316,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -328,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -340,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "DesignTimeDbContextFactory.cs",
               "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\DesignTimeDbContextFactory.cs",
               "RelativeDocumentMoniker": "DesignTimeDbContextFactory.cs",
@@ -352,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -364,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\Web\\Practice\\Web-Practice\\AccountPractice\\AccountPractice\\Views\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml.cs",

@@ -1,0 +1,13 @@
+﻿@model IEnumerable<AccountPractice.Models.Article>
+
+@{
+    ViewData["Title"] = "文章列表";
+}
+
+<h1>文章列表</h1>
+
+<p>
+    <a asp-controller="Article" asp-action="Create" class="btn btn-primary">新增文章</a>
+</p>
+
+<partial name="ArticleList" model="Model" />
