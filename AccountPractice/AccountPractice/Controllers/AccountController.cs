@@ -21,6 +21,13 @@ public class AccountController : Controller
     {
         if (ModelState.IsValid)
         {
+            var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Username == user.Username);
+            if (existingUser != null)
+            {
+                ModelState.AddModelError("Username", "此用戶名已被使用");
+                return View(user);
+            }
+
             _context.Add(user);
             await _context.SaveChangesAsync();
             return RedirectToAction("Login");
