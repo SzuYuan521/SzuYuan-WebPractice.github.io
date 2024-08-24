@@ -43,7 +43,7 @@ namespace AccountPractice.Controllers
             }
 
             // 有登入
-            return View();
+            return View("CreateArticle");
         }
 
         /// <summary>
@@ -122,7 +122,7 @@ namespace AccountPractice.Controllers
                 return Forbid();
             }
 
-            return View(article);
+            return View("EditArticle", article);
         }
 
         /// <summary>
