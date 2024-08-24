@@ -5,6 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AccountPractice.Controllers
 {
+    /// <summary>
+    /// 處理文章相關操作的控制器
+    /// </summary>
     public class ArticleController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -14,6 +17,10 @@ namespace AccountPractice.Controllers
             _context = context;
         }
 
+        /// <summary>
+        /// ArticleController 的構造函數
+        /// </summary>
+        /// <param name="context">資料庫上下文</param>
         public async Task<IActionResult> ArticleIndex()
         {
             var articles = await _context.Articles
@@ -23,7 +30,10 @@ namespace AccountPractice.Controllers
             return View(articles);
         }
 
-     //   [HttpGet]
+        /// <summary>
+        /// 顯示創建文章的表單
+        /// </summary>
+        /// <returns>創建文章的View或重定向到登入頁面</returns>
         public IActionResult Create()
         {
             // 沒登入, 切到登入畫面
@@ -36,6 +46,11 @@ namespace AccountPractice.Controllers
             return View();
         }
 
+        /// <summary>
+        /// 處理創建文章的表單提交
+        /// </summary>
+        /// <param name="article">包含文章信息的模型</param>
+        /// <returns>成功時重定向到文章列表，失敗時返回錯誤</returns>
         [HttpPost]
         public async Task<IActionResult> Create(Article article)
         {
@@ -74,6 +89,11 @@ namespace AccountPractice.Controllers
             return View(article);
         }
 
+        /// <summary>
+        /// 顯示編輯文章的表單
+        /// </summary>
+        /// <param name="id">文章id</param>
+        /// <returns>創建文章的View, 錯誤時返回404錯誤</returns>
         public async Task<IActionResult> Edit(int? id)
         {
             // 如果未提供文章ID，返回404錯誤
@@ -105,6 +125,12 @@ namespace AccountPractice.Controllers
             return View(article);
         }
 
+        /// <summary>
+        /// 處理編輯文章的表單提交
+        /// </summary>
+        /// <param name="id">文章id</param>
+        /// <param name="article">包含文章信息的模型</param>
+        /// <returns>成功時重定向到文章列表，失敗時返回404錯誤</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Article article)
@@ -154,8 +180,12 @@ namespace AccountPractice.Controllers
             return View(article);
         }
 
+        /// <summary>
+        /// 處理刪除文章
+        /// </summary>
+        /// <param name="id">文章id</param>
+        /// <returns>成功時重定向到文章列表，失敗時返回返回404錯誤</returns>
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
             string userId = HttpContext.Session.GetString("UserId") ?? string.Empty;
@@ -189,6 +219,11 @@ namespace AccountPractice.Controllers
             return RedirectToAction(nameof(ArticleIndex));
         }
 
+        /// <summary>
+        /// 查找指定id文章是否存在
+        /// </summary>
+        /// <param name="id">文章id</param>
+        /// <returns>文章是否存在</returns>
         private bool ArticleExists(int id)
         {
             return _context.Articles.Any(e => e.Id == id);
