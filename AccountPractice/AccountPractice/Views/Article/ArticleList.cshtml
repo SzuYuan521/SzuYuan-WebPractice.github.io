@@ -11,10 +11,11 @@
             <p>@(article.Content.Length > 100 ? article.Content.Substring(0, 100) + "..." : article.Content)</p>
             <div class="article-actions">
                 <a asp-action="Details" asp-route-id="@article.Id" class="btn btn-sm btn-primary">閱讀更多</a>
-                @if (User.Identity.Name == article.Author.Username || User.IsInRole("Admin"))
+                <p>現在登入者為:@Context.Session.GetString("Username")</p>
+                @if (@Context.Session.GetString("Username") == article.Author.Username /*|| User.IsInRole("Admin")*/)
                 {
-                    <a asp-action="Edit" asp-route-id="@article.Id" class="btn btn-sm btn-warning">編輯</a>
-                    <form asp-action="Delete" asp-route-id="@article.Id" method="post" style="display:inline;">
+                    <a asp-controller="Article" asp-action="Edit" asp-route-id="@article.Id" class="btn btn-sm btn-warning">編輯</a>
+                    <form asp-controller="Article" asp-action="Delete" asp-route-id="@article.Id" method="post" style="display:inline;">
                         <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('確定要刪除這篇文章嗎?');">刪除</button>
                     </form>
                 }
